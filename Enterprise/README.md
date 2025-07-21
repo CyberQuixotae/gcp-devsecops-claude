@@ -1,6 +1,3 @@
-GCP Security Engineering with Terraform
-
-This repository contains Terraform configurations for implementing comprehensive security controls on Google Cloud Platform (GCP). The configuration follows security best practices and implements defense-in-depth strategies.
 
 ## 🔐Security Features Implemented
 
@@ -275,7 +272,7 @@ terraform force-unlock LOCK_ID
 
 ## 🔄 Maintenance
 
-###Regular Tasks:
+### Regular Tasks:
 
     Review and rotate KMS keys
     Update organization policies
