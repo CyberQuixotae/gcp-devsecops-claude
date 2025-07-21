@@ -1,0 +1,52 @@
+# GCP Security Configuration Variables for SMB
+# =============================================================================
+# terraform.tfvars.example - GCP Security Configuration Template
+# =============================================================================
+# Copy this file to terraform.tfvars and update the values for your environment
+#
+# SECURITY WARNING: Never commit terraform.tfvars to version control!
+# Add terraform.tfvars to your .gitignore file
+# =============================================================================
+#
+# Required Variables
+project_id      = "your-project-id-here"
+organization_id = "123456789012"  # Your GCP Organization ID
+billing_account = "ABCDEF-123456-ABCDEF"  # Your billing account ID
+company_name    = "YourCompany"  # Used for naming resources (no spaces, alphanumeric only)
+
+# Location Configuration
+region = "us-central1"
+zone   = "us-central1-a"
+
+# Admin Users (for IAM bindings)
+admin_users = [
+  "admin@yourcompany.com",
+  "security@yourcompany.com"
+]
+
+# Optional Security Features (can be disabled to reduce costs)
+enable_security_center = false  # Set to true if you have Security Command Center Premium
+enable_binary_auth     = true   # Container security (recommended)
+enable_monitoring      = true   # Cloud Monitoring alerts
+enable_logging         = true   # Security logging
+
+
+# Cost Optimization Settings
+log_retention_days = 30  # Reduce from 90 to save storage costs
+enable_flow_logs   = false  # Can be expensive for high-traffic networks
+
+# Network Configuration
+vpc_cidr = "10.0.1.0/24"  # Adjust based on your network requirements
+
+# Email for security alerts
+security_email = "security@yourcompany.com"
+
+# Example values - customize for your environment:
+# project_id      = "acme-corp-production"
+# organization_id = "123456789012"
+# billing_account = "ABCDEF-123456-ABCDEF"
+# company_name    = "AcmeCorp"
+# region          = "us-west1"
+# zone            = "us-west1-a"
+# admin_users     = ["john.doe@acmecorp.com", "jane.smith@acmecorp.com"]
+# security_email  = "security-team@acmecorp.com"
