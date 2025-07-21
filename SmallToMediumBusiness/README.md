@@ -2,10 +2,10 @@
 
 This Terraform configuration provides enterprise-grade security controls for Google Cloud Platform, specifically designed for small-to-medium businesses (SMBs). It implements security best practices while maintaining cost-effectiveness and operational simplicity.
 
-This document was generated with help from Claude Sonnet 4 and audited/modified by cyberquixote.
+This document was generated with help from Claude Sonnet 4 and audited/modified by cyberquixote. For a full explanation of what I'm trying to do here, along with my thoughts, please read the main article at (URL COMING SOON)[PLACEHOLDER]
 
-# SECURITY WARNING: Never commit terraform.tfvars to version control!
-# Add terraform.tfvars to your .gitignore file
+## SECURITY WARNING: Never commit terraform.tfvars to version control! Add terraform.tfvars to your .gitignore file
+
 
 ## 🔐 Security Features Included
 
