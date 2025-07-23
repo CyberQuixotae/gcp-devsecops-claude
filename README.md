@@ -1,8 +1,16 @@
 Review `README.md` docs for the `Enterprise` and `SmalltoMediumBusiness` folders for module specific instructions. 
 
-Background information on this repo can be found at the [White Lies and Green Chips - A realistic guide to LLMs](https://32x33.institute/white-lies-and-green-chips-a-realistic-guide-to-llms/). 
+Background information on this repo can be found at the [White Lies and Green Chips - A realistic guide to LLMs](https://32x33.institute/white-lies-and-green-chips-a-realistic-guide-to-llms/). Please feel free to leave or provide feedback. 
+<br>
+<br>
+<br>
+<br>
+<br>
 
-Please feel free to leave feedback. 
+
+
+
+
 
 License is MIT.
 
