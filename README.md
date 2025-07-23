@@ -14,6 +14,6 @@ Background information on this repo can be found at the [White Lies and Green Ch
 
 License is MIT.
 
----
+
 
 <img width="493" height="493" alt="QuixotePFP" src="https://github.com/user-attachments/assets/5212782b-a19f-4438-93e6-d8bcdbcccecf" />
